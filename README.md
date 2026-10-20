@@ -86,6 +86,6 @@
 ## Contacts
 
 <p>
-  <a href="https://t.me/Skrizzzy4"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="https://t.me/Skr1zzzz"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
   <a href="https://platezkaivan-droid.github.io/resume/"><img src="https://img.shields.io/badge/Resume-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Resume" /></a>
 </p>
