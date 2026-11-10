@@ -1,8 +1,8 @@
 # 👋 Hello there!
 
-**Java developer · Minecraft modding** from Moscow. I port large mods across Minecraft versions and mod loaders with Fabric and Mixin, write my own mods, and build Python back-end services that run on my own Linux servers.
+**Java developer · Minecraft modding** from Moscow. I port large mods across Minecraft versions and mod loaders with Fabric and Mixin, write my own mods, contribute to [Horizon](https://github.com/horizon-rust/horizon), an open-source Minecraft port in Rust ([26 merged pull requests](https://github.com/horizon-rust/horizon/pulls?q=is%3Apr+author%3ASkr1zzzz+is%3Amerged)), and build Python back-end services that run on my own Linux servers. I work with AI coding agents: the task, the review and the benchmarks are mine.
 
-🎓 MGKEIT, Information Systems & Programming · 💼 open to part-time and project work · 📄 [Resume](https://platezkaivan-droid.github.io/resume/)
+🎓 IT Moscow College (formerly MGKEIT), Information Systems & Programming, graduating 2027 · 💼 open to part-time and project work · 📄 Resume: [Java](https://platezkaivan-droid.github.io/resume/) · [DevOps](https://platezkaivan-droid.github.io/resume/devops.html)
 
 ## My skills
 
@@ -10,6 +10,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
@@ -59,6 +60,15 @@
   <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="nginx" />
 </p>
 
+**AI & LLM**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/LiteLLM-1F2937?style=for-the-badge" alt="LiteLLM" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini API" />
+</p>
+
 **DevOps**
 
 <p>
@@ -73,15 +83,17 @@
 
 | Project | What it does | Stack |
 |---|---|---|
+| [🦀 Horizon](https://github.com/horizon-rust/horizon/pulls?q=is%3Apr+author%3ASkr1zzzz) (contributions) | 26 merged pull requests to an open-source Minecraft port in Rust, 6 more in review: 1.8–2.6× FPS with 150 players, +75–85% FPS with thousands of falling blocks, world saves that survive a crash, the 13k-line `game.rs` split into modules. Each PR with A/B benchmarks and CI | Rust · Cargo · clippy |
+| [📡 intern-monitor](https://github.com/Skr1zzzz/intern-monitor) | Telegram bot that collects internships from hh.ru and Habr Career every 2 hours and has an LLM rate each one; non-root Docker image, healthcheck, GitHub Actions → GHCR | Python · SQLite · Docker · GitHub Actions · Gemini API |
 | [⚙️ Carpet Fixes 1.21.11](https://github.com/Skr1zzzz/carpet-fixes-1.21.11) | Unofficial port of the Carpet Fixes mod to Minecraft 1.21.11: 246 mixins patching vanilla code | Java · Fabric · Mixin · Gradle |
 | [🎨 Totem Skins](https://github.com/Skr1zzzz/totem-skins) | Client mod: a Totem of Undying renamed to a player's nickname renders as that player's skin | Java · Fabric · Mixin |
 | [📋 Bulk Whitelist](https://github.com/Skr1zzzz/bulk-whitelist) | Server mod: add a whole list of players to the whitelist with one command | Java · Fabric |
 | [🧱 Deco Blocks](https://github.com/Skr1zzzz/deco-blocks) | Craftable decorative nether/end portals (no teleport), bedrock, spawner and dragon egg | Java · Fabric |
 | [🗺️ No F3 Coords](https://github.com/Skr1zzzz/no-f3-coords) | Server mod: hides F3 coordinates from non-op players, works with vanilla clients | Java · Fabric · Mixin |
-| [🛒 VAMOS VPN](https://t.me/haribo_vamos_vpn_bot) | Telegram VPN shop running on real users: a personal AmneziaWG peer per user, CryptoBot payments, referrals, a Telegram WebApp cabinet with initData (HMAC-SHA256) auth, split tunnel and DPI bypass | Python · aiogram 3 · SQLite · AmneziaWG · nftables · nginx · systemd |
+| [🛒 VAMOS VPN](https://t.me/haribo_vamos_vpn_bot) | Telegram VPN shop running on real users: a personal AmneziaWG peer per user, CryptoBot payments, referrals, a Telegram WebApp cabinet with initData (HMAC-SHA256) auth | Python · aiogram 3 · SQLite · AmneziaWG · nftables · nginx · systemd |
 | [🔐 dvpn](https://github.com/platezkaivan-droid/dvpn-get) | Terminal VPN client on the mihomo core: TUI with server ping and live traffic, VLESS Reality / Hysteria2 / Trojan, one-command install on Windows and Linux | Python · mihomo · PowerShell · Bash |
 | [🥐 Bakery Mobile App](https://github.com/platezkaivan-droid/bakery-mobile-app) | Cross-platform bakery app: catalogue and cart, realtime support chat, push notifications, Google Sign-In, web admin panel | React Native · Expo · TypeScript · Supabase · Firebase |
-| [💻 Web Resume](https://platezkaivan-droid.github.io/resume/) | Interactive cyberpunk-style resume site: custom cursor, matrix rain, light/dark themes, responsive layout | HTML5 · CSS3 · Vanilla JS |
+| [💻 Web Resume](https://platezkaivan-droid.github.io/resume/) | Bilingual resume site (RU/EN) with Java and DevOps versions, light/dark themes and A4 PDFs rendered with Playwright | HTML5 · CSS3 · Vanilla JS · Playwright |
 
 ## Contacts
 
